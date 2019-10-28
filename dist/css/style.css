@@ -152,3 +152,14 @@ body {
 .thStyles {
     color: #fff;
 }
+
+.footer {
+    background: black;
+    color: rgb(99, 96, 96);
+    width: 105%;
+    height: 200px;
+}
+
+.footer p {
+    padding: 20px;
+}
