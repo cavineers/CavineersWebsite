@@ -29,7 +29,7 @@ function getPass() {
             var pass = response.pass;
             var password = document.getElementById("password").value;
             for (var i = 0; i < pass.length; i++) {
-                if (password == "4541") { //pass[i].ps
+                if (password == pass[i].ps) { //pass[i].ps
                     window.location.replace("admin.html");
                 } else {
                     console.log('Login in');
