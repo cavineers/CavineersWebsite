@@ -37,7 +37,7 @@ function getPass() {
             }
         }
     };
-    xhttp.open("GET", "users.json", true);
+    xhttp.open("GET", "js/users.json", true);
     xhttp.send();
 }
 
@@ -50,7 +50,7 @@ function getUser() {
             var users = response.users;
             var username = document.getElementById("username").value;
             for (var i = 0; i < users.length; i++) {
-                if (username == "Hello") { //users[i].user
+                if (username == users[i].user) { //users[i].user
                     getPass();
                 } else {
                     console.log('Login in');
@@ -58,6 +58,6 @@ function getUser() {
             }
         }
     };
-    xhttp.open("GET", "users.json", true);
+    xhttp.open("GET", "js/users.json", true);
     xhttp.send();
 }
