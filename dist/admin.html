@@ -58,7 +58,16 @@
         firebase.initializeApp(firebaseConfig);
     </script>
     <script src="js/main.js"></script>
-    <script src="js/login.js"></script>
+    <script>
+        window.onload = function() {
+            if (sessionStorage.getItem("loggedIn") !== null) {
+                console.log('Login success');
+            } else {
+                sessionStorage.clear();
+                window.location.replace('login.html');
+            }
+        }
+    </script>
 </body>
 
 </html>

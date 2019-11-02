@@ -74,7 +74,7 @@
                 class="far fa-arrow-alt-circle-right"></i></button> -->
             <br>
         </form>
-        <button class="loginBtn" onclick="login()" id="loginButton">Login <i
+        <button class="loginBtn" id="loginButton">Login <i
         class="far fa-arrow-alt-circle-right"></i></button>
         <br>
         <br>
@@ -106,36 +106,8 @@
             <a href="sponsors.html">Our Sponsors</a>
         </div>
     </div>
-    <!--Data when logged in-->
-    <div id="loginData" style="display: none;">
-        <nav class="navbar">
-            <button onclick="logout()">Logout</button>
-        </nav>
-        <br>
-        <br>
-        <h1>4541 Cavineers</h1>
-        <br>
-        <br>
-    </div>
-
-
-    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
     <script src="js/main.js"></script>
-    <script>
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-            apiKey: "AIzaSyBYhP0aoeLbhr7djSUj4cMxbWvt49ThWiE",
-            authDomain: "cavineerswebsite.firebaseapp.com",
-            databaseURL: "https://cavineerswebsite.firebaseio.com",
-            projectId: "cavineerswebsite",
-            storageBucket: "cavineerswebsite.appspot.com",
-            messagingSenderId: "621276718053",
-            appId: "1:621276718053:web:47ee26789eb8841a02450c"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-    </script>
-    <script src="js/login.js"></script>
+    <script src="js/login/login.js"></script>
 </body>
 
 </html>
