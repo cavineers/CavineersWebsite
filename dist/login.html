@@ -46,8 +46,9 @@
 </style>
 
 <body style="text-align: center;">
-    <nav class="navbar">
-        <span class="open-slide">
+    <div id="adminData">
+        <nav class="navbar">
+            <span class="open-slide">
             <a href="#" onclick="openSide()">
                 <svg width="30" height="30">
                     <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
@@ -56,56 +57,70 @@
                 </svg>
             </a>
         </span>
-    </nav>
-    <br>
-    <br>
-    <h1>4541 Cavineers Login</h1>
-    <br>
-    <p id="loggingIn" style="display: none;">Logging in</p>
-    <br>
-    <form class="loginForm">
-        <input type="text" id="username" placeholder="Please enter your username..." />
+        </nav>
         <br>
         <br>
-        <input type="password" id="password" placeholder="Please enter your password..." />
+        <h1>4541 Cavineers Login</h1>
         <br>
         <br>
+        <form class="loginForm">
+            <input type="text" id="username" placeholder="Please enter your username..." />
+            <br>
+            <br>
+            <input type="password" id="password" placeholder="Please enter your password..." />
+            <br>
+            <br>
+            <!-- <button class="loginBtn" onclick="login()" id="loginButton">Login <i
+                class="far fa-arrow-alt-circle-right"></i></button> -->
+            <br>
+        </form>
         <button class="loginBtn" onclick="login()" id="loginButton">Login <i
-                class="far fa-arrow-alt-circle-right"></i></button>
+        class="far fa-arrow-alt-circle-right"></i></button>
         <br>
-        <div class="g-signin2" data-onsuccess="onSignIn"></div>
-    </form>
-    <br>
-    <br>
-    <div class="footer" style="background: red; width: 105%; height: 600px;">
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <img src="https://static.wixstatic.com/media/fdf981_f83aa90bb02b4c239dc556818f978a89~mv2_d_3300_2624_s_4_2.png/v1/crop/x_176,y_498,w_2743,h_1613/fill/w_356,h_204,al_c,q_80,usm_0.66_1.00_0.01/fdf981_f83aa90bb02b4c239dc556818f978a89~mv2_d_3300_2624_s_4_2.webp"
-                        style="width:400px;height:400px;" />
-                </td>
-                <td class="textImg">
-                    <h3><em>Follow us on social media!</em></h3>
-                    <ul style="list-style-type:none; font-family: avenir-lt-w01_35-light1475496, sans-serif;">
-                        <li><b>Instagram: 4541cavineers</b></li>
-                        <li><b>Twitter: 4541cavineers</b></li>
-                        <li><b>Snapchat: ashsrobotics</b></li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
+        <br>
+        <div class="footer" style="background: red; width: 105%; height: 600px;">
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        <img src="https://static.wixstatic.com/media/fdf981_f83aa90bb02b4c239dc556818f978a89~mv2_d_3300_2624_s_4_2.png/v1/crop/x_176,y_498,w_2743,h_1613/fill/w_356,h_204,al_c,q_80,usm_0.66_1.00_0.01/fdf981_f83aa90bb02b4c239dc556818f978a89~mv2_d_3300_2624_s_4_2.webp"
+                            style="width:400px;height:400px;" />
+                    </td>
+                    <td class="textImg">
+                        <h3><em>Follow us on social media!</em></h3>
+                        <ul style="list-style-type:none; font-family: avenir-lt-w01_35-light1475496, sans-serif;">
+                            <li><b>Instagram: 4541cavineers</b></li>
+                            <li><b>Twitter: 4541cavineers</b></li>
+                            <li><b>Snapchat: ashsrobotics</b></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSide()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="outreach.html">Outreach</a>
+            <a href="about.html">About Us</a>
+            <a href="innovation-challenge.html">Innovation Challenge</a>
+            <a href="team.html">Team Structure</a>
+            <a href="sponsors.html">Our Sponsors</a>
+        </div>
     </div>
-    <div id="side-menu" class="side-nav">
-        <a href="#" class="btn-close" onclick="closeSide()">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="outreach.html">Outreach</a>
-        <a href="about.html">About Us</a>
-        <a href="innovation-challenge.html">Innovation Challenge</a>
-        <a href="team.html">Team Structure</a>
-        <a href="sponsors.html">Our Sponsors</a>
+    <!--Data when logged in-->
+    <div id="loginData" style="display: none;">
+        <nav class="navbar">
+            <button onclick="logout()">Logout</button>
+        </nav>
+        <br>
+        <br>
+        <h1>4541 Cavineers</h1>
+        <br>
+        <br>
     </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
     <script src="js/main.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
     <script>
         // Your web app's Firebase configuration
         var firebaseConfig = {

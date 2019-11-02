@@ -21,11 +21,10 @@
                             </a>
                         </span>
         <div class="topnav">
-            <a href="index.html">Logout</a>
+            <button onclick="logout()">Logout</button>
             <a href="about.html">About Us</a>
             <a href="outreach.html">Outreach</a>
             <a href="sponsors.html">Sponsors</a>
-            <a href="login.html">Login</a>
             <!-- <input type="text" id="inputTag" value="" placeholder="Search..">
                     <button type="submit" id="SearchBtn" onclick="search()"><i class="fa fa-search"></i></button> -->
         </div>
@@ -43,7 +42,23 @@
         <a href="team.html">Team Structure</a>
         <a href="sponsors.html">Our Sponsors</a>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBYhP0aoeLbhr7djSUj4cMxbWvt49ThWiE",
+            authDomain: "cavineerswebsite.firebaseapp.com",
+            databaseURL: "https://cavineerswebsite.firebaseio.com",
+            projectId: "cavineerswebsite",
+            storageBucket: "cavineerswebsite.appspot.com",
+            messagingSenderId: "621276718053",
+            appId: "1:621276718053:web:47ee26789eb8841a02450c"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
     <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
 </body>
 
 </html>

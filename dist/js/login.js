@@ -1,11 +1,13 @@
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
         // User is signed in.
-        document.getElementById('loggingIn').style.display = "block";
-        alert('loggedIn');
+        document.getElementById('adminData').style.display = 'none';
+        document.getElementById('loginData').style.display = 'block';
+        console.log('logged in');
     } else {
         // No user is signed in.
-        document.getElementById('loggingIn').style.display = "none";
+        document.getElementById('adminData').style.display = 'block';
+        console.log('Not logged in ')
     }
 });
 
@@ -20,5 +22,13 @@ function login() {
 
         window.alert("Error: " + errorMessage);
         // ...
+    });
+}
+
+function logout() {
+    firebase.auth().signOut().then(function() {
+        window.location.replace('index.html');
+    }).catch(function(error) {
+        // An error happened.
     });
 }
