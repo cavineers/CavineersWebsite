@@ -1,7 +1,7 @@
 body {
+    background: #fff;
+    color: #111;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #111;
-    color: #fff;
 }
 
 .navbar {
@@ -30,23 +30,6 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #ddd;
-    color: #333;
-}
-
-.navbar button {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    background: rgb(59, 53, 53);
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    border: 1px solid rgb(59, 53, 53);
-}
-
-.navbar button:hover {
     background-color: #ddd;
     color: #333;
 }
@@ -93,13 +76,9 @@ body {
     border-radius: 50%;
     top: 0;
     border: 1px solid #333;
-    background: rgb(211, 204, 204);
+    background: rgb(219, 213, 213);
     padding: 6px 10px;
     cursor: pointer;
-}
-
-.insta:hover {
-    opacity: 0.93;
 }
 
 .parent {
@@ -168,8 +147,8 @@ body {
 }
 
 .imgSrcs {
-    width: 75%;
-    height: 72%;
+    width: 50%;
+    height: auto;
 }
 
 .thStyles {
@@ -177,47 +156,38 @@ body {
 }
 
 .footer {
-    background: rgb(223, 220, 220);
-    color: rgb(24, 22, 22);
+    background: rgb(36, 35, 35);
+    color: rgb(119, 119, 119);
     width: 105%;
     height: 200px;
+    margin-top: 0;
 }
 
 .footer p {
     padding: 20px;
 }
 
-.mySlides {
-    display: none;
+.HeadTag {
+    color: #111;
+    font-family: proxima-n-w01-reg, sans-serif;
+    text-align: center;
+    font-size: 67px;
 }
 
-img {
-    vertical-align: middle;
+.HeadP {
+    color: #111;
+    font-family: proxima-n-w01-reg, sans-serif;
+    text-align: center;
+    font-size: 49px;
 }
 
-
-/* Slideshow container */
-
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+.redColor {
+    background: red;
+    color: red;
+    height: 200px;
+    margin: 0px;
 }
 
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
+table {
+    border: 2px solid black;
 }

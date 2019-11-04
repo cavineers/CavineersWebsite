@@ -21,14 +21,23 @@
         }
     })
 })()
-
-
-
-
-
-
 /*//Protects the functions
-                      // Your web app's Firebase configuration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Your web app's Firebase configuration
                       var firebaseConfig = {
                           apiKey: "AIzaSyBYhP0aoeLbhr7djSUj4cMxbWvt49ThWiE",
                           authDomain: "cavineerswebsite.firebaseapp.com",
