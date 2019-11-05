@@ -323,3 +323,24 @@ img {
     -webkit-column-count: 2;
     column-count: 2;
 }
+
+.sponsors {
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+
+.grid-item {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
