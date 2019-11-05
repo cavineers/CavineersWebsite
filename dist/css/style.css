@@ -344,3 +344,7 @@ img {
     font-size: 20px;
     text-align: center;
 }
+
+.linkSpo:hover {
+    opacity: 0.85;
+}
