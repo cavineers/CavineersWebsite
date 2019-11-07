@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/web.css" />
+    <!--<meta name="google-signin-client_id" content="621276718053-p7luo3n3j1nepk4kc90858opsrdfr27r.apps.googleusercontent.com">-->
+    <script src="https://kit.fontawesome.com/0f23c84102.js"></script>
+    <!--<script src="https://apis.google.com/js/platform.js" async defer></script>-->
+    <title>4541 Login</title>
+</head>
+<style>
+    form input {
+        font-size: 24px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: whitesmoke;
+        padding: 10px;
+        border-radius: 5px;
+        width: 50%;
+        height: 1.75rem;
+        border: 1px solid black;
+    }
+    
+    input:focus {
+        border: 3px solid #4285f4;
+    }
+    
+    .textImg {
+        color: black;
+    }
+    
+    .textImg h3 {
+        margin-left: 120px;
+    }
+    
+    .loginBtn {
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        border: 1px solid black;
+        border-radius: 5px;
+        background: whitesmoke;
+        padding: 3.5px;
+    }
+</style>
+
+<body style="text-align: center;">
+    <div id="adminData">
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSide()">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                    </svg>
+                </a>
+            </span>
+        </nav>
+        <br>
+        <br>
+        <h1>4541 Cavineers Login</h1>
+        <br>
+        <br>
+        <form class="loginForm">
+            <input type="text" id="username" placeholder="Please enter your username..." />
+            <br>
+            <br>
+            <input type="password" id="password" placeholder="Please enter your password..." />
+            <br>
+            <br>
+            <!-- <button class="loginBtn" onclick="login()" id="loginButton">Login <i
+                class="far fa-arrow-alt-circle-right"></i></button> -->
+            <br>
+        </form>
+        <button class="loginBtn" id="loginButton">Login <i class="far fa-arrow-alt-circle-right"></i></button>
+        <br>
+        <br>
+        <div class="footer" style="background: red; width: 105%; height: 600px;">
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        <img src="https://static.wixstatic.com/media/fdf981_f83aa90bb02b4c239dc556818f978a89~mv2_d_3300_2624_s_4_2.png/v1/crop/x_176,y_498,w_2743,h_1613/fill/w_356,h_204,al_c,q_80,usm_0.66_1.00_0.01/fdf981_f83aa90bb02b4c239dc556818f978a89~mv2_d_3300_2624_s_4_2.webp"
+                            style="width:400px;height:400px;" />
+                    </td>
+                    <td class="textImg">
+                        <h3><em>Follow us on social media!</em></h3>
+                        <ul style="list-style-type:none; font-family: avenir-lt-w01_35-light1475496, sans-serif;">
+                            <li><b>Instagram: 4541cavineers</b></li>
+                            <li><b>Twitter: 4541cavineers</b></li>
+                            <li><b>Snapchat: ashsrobotics</b></li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSide()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="outreach.html">Outreach</a>
+            <a href="about.html">About Us</a>
+            <a href="innovation-challenge.html">Innovation Challenge</a>
+            <a href="team.html">Team Structure</a>
+            <a href="sponsors.html">Our Sponsors</a>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/login/login.js"></script>
+</body>
+
+</html>
