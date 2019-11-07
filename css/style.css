@@ -1,6 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #111;
+    background: rgb(34, 34, 34);
     color: #fff;
 }
 
@@ -227,6 +227,7 @@ img {
 }
 
 .slideshow-container {
+    text-align: center;
     max-width: 1000px;
     position: relative;
     margin: auto;
