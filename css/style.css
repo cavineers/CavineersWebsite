@@ -318,6 +318,7 @@ img {
     text-align: center;
     font-size: 2rem;
     color: red;
+    background: rgb(48, 48, 48);
 }
 
 .columnStyle {
