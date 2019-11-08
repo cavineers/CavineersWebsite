@@ -1,7 +1,8 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #fff;
-    color: #111;
+    background: #222;
+    /* background: rgb(240, 240, 240); */
+    color: #fff;
 }
 
 .navbar {
@@ -131,8 +132,8 @@ body {
 }
 
 .footer {
-    background: rgb(36, 35, 35);
-    color: rgb(65, 65, 65);
+    background: rgb(88, 88, 88);
+    color: rgb(114, 114, 114);
     width: 105%;
     height: 200px;
 }
@@ -153,4 +154,8 @@ body {
     margin-top: 0.2rem;
     margin-bottom: 1.5rem;
     display: inline-block;
+}
+
+.lists p {
+    font-size: 21px;
 }
