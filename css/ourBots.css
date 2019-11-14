@@ -105,3 +105,22 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.deepSpace {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    color: white;
+    background: url('http://blog.phantomforest.com/wp-content/uploads/2014/03/deep-space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.powerUp {
+    border-top: 15px solid black;
+    color: #fff;
+    background: url('https://chargerrobotics.weebly.com/uploads/1/4/3/5/14358838/published/first-pwoer-uo.png?1516759073');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
