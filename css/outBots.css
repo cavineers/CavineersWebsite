@@ -43,3 +43,65 @@ body {
     padding: 6px 10px;
     cursor: pointer;
 }
+
+.banner,
+.banner:after {
+    -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+}
+
+.banner {
+    background: #0f4bcb;
+    color: white;
+    display: inline-block;
+    height: 190px;
+    width: 140px;
+    line-height: 1.2;
+    margin: 0 0 40px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    white-space: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.banner,
+.banner:after {
+    -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+}
+
+.banner:after {
+    content: '';
+    position: absolute;
+    display: block;
+    border: 70px solid #0f4bcb;
+    border-top-width: 5px;
+    border-bottom: 20px transparent solid;
+    top: 100%;
+    left: 0;
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
