@@ -12,7 +12,6 @@ body h2 {
 
 .navbar {
     /* background-color: #333; */
-    overflow: hidden;
     height: 63px;
     width: 100%;
     margin: none;
@@ -47,7 +46,8 @@ body h2 {
     border-radius: 50%;
     top: 0;
     border: 1px solid #333;
-    background: rgb(219, 213, 213);
+    color: #fff;
+    background: rgb(70, 70, 70);
     padding: 6px 10px;
     cursor: pointer;
 }
@@ -132,3 +132,57 @@ body h2 {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+/* Drop Down Overlay */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: #333;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #272727;
+    min-width: 168px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* End */

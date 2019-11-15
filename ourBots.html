@@ -18,8 +18,16 @@
             <a href="outreach.html">Outreach</a>
             <a href="sponsors.html">Sponsors</a>
             <a href="media.html">Media</a>
-            <!-- <input type="text" id="inputTag" value="" placeholder="Search..">
-            <button type="submit" id="SearchBtn" onclick="search()"><i class="fa fa-search"></i></button> -->
+            <div class="dropdown">
+                <button onclick="bot()" class="dropbtn">Meet Our Robots
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                <div class="dropdown-content">
+                    <a href="views/2019.html">2019</a>
+                    <a href="views/2018.html">2018</a>
+                    <a href="views/2017.html">2017</a>
+                </div>
+            </div>
         </div>
         <button class="insta" onclick="social()"><i class="fab fa-instagram"></i></button>
     </nav>
@@ -28,7 +36,6 @@
     <br>
     <div style="position: absolute; left: 0; right: 0;">
         <div class="deepSpace">
-            <!--@TODO ADD DESTINATION DEEP SPACE Background-->
             <table cellspacing="30">
                 <tr>
                     <td>
@@ -88,6 +95,11 @@
             </table>
         </div>
     </div>
+    <script>
+        function bot() {
+            window.location.replace('ourBots.html');
+        }
+    </script>
 </body>
 
 </html>

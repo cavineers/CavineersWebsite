@@ -6,7 +6,6 @@ body {
 
 .navbar {
     /* background-color: #333; */
-    overflow: hidden;
     height: 63px;
     width: 100%;
     margin: none;
@@ -76,7 +75,8 @@ body {
     border-radius: 50%;
     top: 0;
     border: 1px solid #333;
-    background: rgb(219, 213, 213);
+    color: #fff;
+    background: rgb(70, 70, 70);
     padding: 6px 10px;
     cursor: pointer;
 }
