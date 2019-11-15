@@ -1,4 +1,5 @@
 body {
+    background: gray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -112,7 +113,7 @@ body {
     left: 0;
     right: 0;
     color: white;
-    background: url('http://blog.phantomforest.com/wp-content/uploads/2014/03/deep-space.jpg');
+    background: url("https://resize.hswstatic.com/w_907/gif/now-b28de13f-ee47-44cb-b38b-909a39437b0e-1210-680.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -120,7 +121,7 @@ body {
 .powerUp {
     border-top: 15px solid black;
     color: #fff;
-    background: url('https://chargerrobotics.weebly.com/uploads/1/4/3/5/14358838/published/first-pwoer-uo.png?1516759073');
+    background: url('https://i.imgur.com/AP0KUL6.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
