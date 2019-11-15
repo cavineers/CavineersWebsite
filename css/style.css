@@ -561,4 +561,20 @@
     .dropdown:hover .dropdown-content {
         display: flex;
     }
+    @media only screen and (max-width: 495px) {
+        img {
+            display: none;
+        }
+        .sponsorsTags {
+            display: none;
+        }
+        .break {
+            display: none;
+        }
+        @media only screen and (max-width: 450px) {
+            .following {
+                display: none;
+            }
+        }
+    }
 }
