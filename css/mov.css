@@ -49,7 +49,7 @@ body {
     width: 100vw;
     z-index: 1;
     /* background: #225470; */
-    background: rgba(255, 85, 85, 0.877);
+    background: rgb(206, 36, 36);
     opacity: 0.85;
 }
 
