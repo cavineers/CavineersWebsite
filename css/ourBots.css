@@ -1,6 +1,13 @@
 body {
-    background: gray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(48, 48, 48);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Adam", "Roboto", sans-serif;
+    color: #fff;
+}
+
+body h2 {
+    font-size: 60px;
 }
 
 .navbar {
@@ -121,7 +128,7 @@ body {
 .powerUp {
     border-top: 15px solid black;
     color: #fff;
-    background: url('https://i.imgur.com/AP0KUL6.jpg');
+    /* background: url('https://i.imgur.com/AP0KUL6.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
 }

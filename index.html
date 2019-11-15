@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <div class="navbar">
         <span class="open-slide">
             <a href="#" onclick="openSide()">
                 <svg width="30" height="30">
@@ -31,11 +31,21 @@
             <a href="login.html">Login</a>
             <a href="media.html">Media</a>
             <a href="ourBots.html">Meet Our Bots</a>
+            <div class="dropdown">
+                <button class="dropbtn">Meet Our Robots
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
             <!-- <input type="text" id="inputTag" value="" placeholder="Search..">
             <button type="submit" id="SearchBtn" onclick="search()"><i class="fa fa-search"></i></button> -->
         </div>
         <button class="insta" onclick="social()"><i class="fab fa-instagram"></i></button>
-    </nav>
+    </div>
     <br>
     <br>
     <header class="v-header container">
@@ -90,7 +100,7 @@
                         />
                     </th>
                     <th class="thStyles">
-                        <h2>Our Mission Statement</h2><br>
+                        <h1>Our Mission Statement</h1><br>
                         <p>Team 4541’s mission is to instruct and inspire the next generation of engineers. We use the FIRST Robotics Competition program to teach our students about the applications of engineering and business in the most practical manner
                             available. With the establishment of the Catholic Robotics League in 2017, Team 4541 aims to share the lessons that FIRST has taught us with as many students as possible. We have ignited a spark of inspiration in our community,
                             and now it is our team’s responsibility to fan the flame.</p>
@@ -154,7 +164,7 @@
         <table class="sponsors" cellspacing="60">
             <tr>
                 <th>
-                    <h2 style="font-size: 50px; text-shadow: 2px 2px 5px red; text-align: center;">Our Sponsors</h2>
+                    <h1 style="font-size: 50px; text-shadow: 2px 2px 5px red; text-align: center;">Our Sponsors</h1>
                 </th>
                 <th>
                     <a href="sponsors.html" style="color: #fff; text-align: center;" class="linkSpo">Learn More About Our Sponsors</a>
