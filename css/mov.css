@@ -48,8 +48,9 @@ body {
     left: 0;
     width: 100vw;
     z-index: 1;
-    background: #225470;
-    opacity: 0.9;
+    /* background: #225470; */
+    background: rgba(255, 85, 85, 0.877);
+    opacity: 0.85;
 }
 
 .header-content {
