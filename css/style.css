@@ -1,6 +1,6 @@
 @media only screen and (min-width: 800px) {
     body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background: rgb(34, 34, 34);
         color: #fff;
     }
@@ -133,7 +133,7 @@
     }
     .footer p,
     .sourceCodes {
-        color: rgb(0, 0, 0);
+        color: #fff;
         padding: 15px;
         font-size: 17px;
     }
@@ -201,7 +201,6 @@
         color: white;
         padding: 14px 16px;
         background-color: inherit;
-        font-family: inherit;
         margin: 0;
     }
     .dropdown:hover .dropbtn {
@@ -247,7 +246,7 @@
 
 @media only screen and (max-width: 799px) {
     body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background: rgb(34, 34, 34);
         color: #fff;
         font-size: smaller;
@@ -413,7 +412,6 @@
         color: white;
         padding: 14px 16px;
         background-color: inherit;
-        font-family: inherit;
         margin: 0;
     }
     .dropdown:hover .dropbtn {

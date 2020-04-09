@@ -1,7 +1,11 @@
 body {
     background: #fff;
     color: #111;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    width: 100%;
+    transform: scale(1.1);
+    transform-origin: 0 0;
 }
 
 .navbar {
@@ -156,29 +160,15 @@ body {
 }
 
 .footer {
-    background: rgb(36, 35, 35);
-    color: rgb(119, 119, 119);
+    background: rgb(88, 88, 88);
     width: 105%;
     height: 200px;
-    margin-top: 0;
 }
 
 .footer p {
     padding: 20px;
-}
-
-.HeadTag {
-    color: #111;
-    font-family: proxima-n-w01-reg, sans-serif;
-    text-align: center;
-    font-size: 67px;
-}
-
-.HeadP {
-    color: #111;
-    font-family: proxima-n-w01-reg, sans-serif;
-    text-align: center;
-    font-size: 49px;
+    font-size: 16px;
+    color: rgb(230, 230, 230);
 }
 
 .redColor {
@@ -188,6 +178,50 @@ body {
     margin: 0px;
 }
 
-table {
-    border: 2px solid black;
+@media(min-width: 1641px) {
+    .content {
+        display: flex;
+        width: 100%;
+        margin-right: 5rem;
+        margin-left: 5rem;
+    }
+    .content p {
+        font-size: 36px;
+    }
+    .content h1 {
+        font-size: 60px;
+    }
+    .words {
+        display: inline-block;
+        width: 50%;
+    }
+    .imgs img {
+        display: inline-block;
+        width: 70%;
+    }
+}
+
+@media(max-width: 1640px) {
+    .content {
+        position: relative;
+        display: flex;
+        width: 100%;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+        flex-wrap: wrap;
+    }
+    .content p {
+        font-size: 36px;
+    }
+    .content h1 {
+        font-size: 60px;
+    }
+    .words {
+        display: inline-block;
+        width: 80%;
+    }
+    .imgs img {
+        display: inline-block;
+        width: 80%;
+    }
 }
