@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/0f23c84102.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
     <link rel="stylesheet" href="css/aboutUs.css" />
     <title>About 4541 Cavineers</title>
 </head>
 
 <body>
-    <nav class="navbar">
+    <div class="navbar">
         <span class="open-slide">
-            <a href="#" onclick="openSide()">
+            <a href="#" onclick="openSide()" style="display: block;">
                 <svg width="30" height="30">
                     <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
                     <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
@@ -23,42 +25,136 @@
         </span>
         <div class="topnav">
             <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
             <a href="outreach.html">Outreach</a>
             <a href="sponsors.html">Sponsors</a>
-            <a href="media.html">Media</a>
+            <div class="dropdown">
+                <button onclick="bot()" class="dropbtn">Meet Our Robots
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="views/2019.html">2019</a>
+                    <a href="views/2018.html">2018</a>
+                    <a href="views/2017.html">2017</a>
+                </div>
+            </div>
         </div>
         <button class="insta" onclick="social()"><i class="fab fa-instagram"></i></button>
-    </nav>
+    </div>
     <br>
     <br>
     <br>
     <br>
-    <div class="content">
-        <div class="words">
-            <h1><em>4541 Cavineers</em></h1>
-            <p>The 4541 Cavineers are a dedicated team of passionate high schoolers who strive to not only compete in the FIRST Robotics Competition but spread their love of STEM with their community.
-            </p>
+    <div class="allCont" style="width: 100%;">
+        <div class="mainDiv">
+            <h1 class="message">The Cavineers are <span class="txt-rotate" data-period="1500" data-rotate='[ "Innovative.", "Inspired.", "Changing the World.", "Igniting the Spark."]'></span></h1>
+            <div class="infoBox1" id="mainTag" data-aos="fade-down">
+                <div class="content">
+                    <p style="color: rgb(83, 83, 83); font-size: 24px; line-height: 1.6;"><span class="headTxt"><b>About Us:</b></span><br><br> The 4541 Cavineers are a dedicated team of passionate high schoolers who strive to not only compete in the FIRST Robotics Competition but spread their love of STEM with their community.
+                        <em>It is our mission to spread innovation accross our community and create an environment where innovation not only takes place, but is encouraged in every sense of the word.</em> We are based out of Archbishop Spalding High School
+                        in Severn Maryland and are led by two amazing coaches who push and inspire us to innovate.
+                    </p>
+                </div>
+                <footer style="-webkit-align-items: center; -ms-flex-align: center; align-items: center; background: #eceff1; padding: 16px 0 20px; font-weight: 300; padding: 32px 20px 50px; border-radius: 12px;">
+                    Application provided by: <i>FRC 4541 Scouting</i>, <i>Node.js</i>, <i>Express.js</i>, <i>Firebase</i>
+                </footer>
+            </div>
+            <br><br>
+            <div class="infoBox1" id="mainTag" data-aos="fade-left">
+                <div class="content">
+                    <p style="color: rgb(83, 83, 83); font-size: 24px; line-height: 1.6;"><span class="headTxt"><b>Mental Health Initative:</b></span><br><br> Team 4541 is committed to all forms of safety and health, including mental health. Stress balls open up a conversation about mental health and its importance. They
+                        also provide a physical way to relieve stress at a time when it is at its peak. It is a method of raising awareness of mental health. We're all in this together and we should look out for each other. In order to support this initiative
+                        and raise awareness, we designed a stress ball which is also a link to important information about stress and time management. <br><a href="mentalHealth.html">Click here to learn more about mental health</a>
+                    </p>
+                </div>
+                <footer style="-webkit-align-items: center; -ms-flex-align: center; align-items: center; background: #eceff1; padding: 16px 0 20px; font-weight: 300; padding: 32px 20px 50px; border-radius: 12px;">
+                    Application provided by: <i>FRC 4541 Scouting</i>, <i>Node.js</i>, <i>Express.js</i>, <i>Firebase</i>
+                </footer>
+            </div>
         </div>
-        <div class="imgs">
-            <img src="img/competition pic.jpg" alt="Competition Pictures">
-        </div>
+        <br><br><br><br><br>
     </div>
-    <div class="redColor">
-        <p>__</p>
-    </div>
-    <div class="footer">
-        <p>Archbishop Spalding High School <br> 8080 New Cut Road <br> Severn, Maryland 21144 <br> 410-969-9105 <br> brunnera@spaldinghs.org</p>
-    </div>
-
 
     <div id="side-menu" class="side-nav">
-        <a href="#" class="btn-close" onclick="closeSide()">&times;</a>
+        <a href="#" class="btn-close" onclick="closeSide() ">&times;</a>
         <a href="index.html">Home</a>
         <a href="outreach.html">Outreach</a>
-        <a href="innovation-challenge.html">Innovation Challenge</a>
-        <a href="team.html">Team Structure</a>
+        <a href="about.html">About Us</a>
         <a href="sponsors.html">Our Sponsors</a>
+        <a href="ourBots.html">Meet Our Bots</a>
+        <a href="/views/2019.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2019</a>
+        <a href="/views/2018.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2018</a>
+        <a href="/views/2017.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2017</a>
     </div>
+    <script>
+        function bot() {
+            window.location.replace('ourBots.html');
+        }
+
+        var TxtRotate = function(el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtRotate.prototype.tick = function() {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 300 - Math.random() * 100;
+
+            if (this.isDeleting) {
+                delta /= 2;
+            }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function() {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function() {
+            var elements = document.getElementsByClassName('txt-rotate');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-rotate');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtRotate(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+            document.body.appendChild(css);
+        };
+    </script>
+    <script>
+        AOS.init({
+            duration: 1400
+        })
+    </script>
     <script src="js/main.js"></script>
 </body>
 

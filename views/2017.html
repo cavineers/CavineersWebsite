@@ -11,13 +11,21 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <div class="navbar">
+        <span class="open-slide">
+                <a href="#" onclick="openSide()" style="display: block;">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                    </svg>
+                </a>
+            </span>
         <div class="topnav">
-            <a href="/index.html">Home</a>
-            <a href="/about.html">About Us</a>
-            <a href="/outreach.html">Outreach</a>
-            <a href="/sponsors.html">Sponsors</a>
-            <a href="/media.html">Media</a>
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About Us</a>
+            <a href="../outreach.html">Outreach</a>
+            <a href="../sponsors.html">Sponsors</a>
             <div class="dropdown">
                 <button onclick="bot()" class="dropbtn">Meet Our Robots
                       <i class="fa fa-caret-down"></i>
@@ -30,7 +38,18 @@
             </div>
         </div>
         <button class="insta" onclick="social()"><i class="fab fa-instagram"></i></button>
-    </nav>
+    </div>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSide() ">&times;</a>
+        <a href="../index.html">Home</a>
+        <a href="../outreach.html">Outreach</a>
+        <a href="../about.html">About Us</a>
+        <a href="../sponsors.html">Our Sponsors</a>
+        <a href="../ourBots.html">Meet Our Bots</a>
+        <a href="2019.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2019</a>
+        <a href="2018.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2018</a>
+        <a href="2017.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2017</a>
+    </div>
     <br>
     <br>
     <br>

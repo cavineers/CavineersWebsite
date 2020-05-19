@@ -16,7 +16,7 @@
 </style>
 
 <body>
-    <nav class="navbar">
+    <div class="navbar">
         <span class="open-slide">
             <a href="#" onclick="openSide()">
                 <svg width="30" height="30">
@@ -30,12 +30,31 @@
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="outreach.html">Outreach</a>
-            <a href="media.html">Media</a>
-            <!-- <input type="text" id="inputTag" value="" placeholder="Search..">
-                        <button type="submit" id="SearchBtn" onclick="search()"><i class="fa fa-search"></i></button> -->
+            <a href="sponsors.html">Sponsors</a>
+            <div class="dropdown">
+                <button onclick="bot()" class="dropbtn">Meet Our Robots
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="views/2019.html">2019</a>
+                    <a href="views/2018.html">2018</a>
+                    <a href="views/2017.html">2017</a>
+                </div>
+            </div>
         </div>
         <button class="insta" onclick="social()"><i class="fab fa-instagram"></i></button>
-    </nav>
+    </div>
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSide() ">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="outreach.html">Outreach</a>
+        <a href="about.html">About Us</a>
+        <a href="sponsors.html">Our Sponsors</a>
+        <a href="ourBots.html">Meet Our Bots</a>
+        <a href="/views/2019.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2019</a>
+        <a href="/views/2018.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2018</a>
+        <a href="/views/2017.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2017</a>
+    </div>
     <br>
     <br>
     <h1 style="text-align: center;">Our Sponsors</h1>
@@ -81,13 +100,11 @@
         <p>Archbishop Spalding High School <br> 8080 New Cut Road <br> Severn, Maryland 21144 <br> 410-969-9105 <br> brunnera@spaldinghs.org
         </p>
     </div>
-    <div id="side-menu" class="side-nav">
-        <a href="#" class="btn-close" onclick="closeSide()">&times;</a>
-        <a href="index.html">Home</a>
-        <a href="outreach.html">Outreach</a>
-        <a href="about.html">About Us</a>
-        <a href="innovation-challenge.html">Innovation Challenge</a>
-    </div>
+    <script>
+        function bot() {
+            window.location.replace('ourBots.html');
+        }
+    </script>
     <script src="js/main.js"></script>
 </body>
 

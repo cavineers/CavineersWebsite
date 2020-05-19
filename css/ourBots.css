@@ -10,28 +10,58 @@ body h2 {
     font-size: 60px;
 }
 
-.navbar {
-    /* background-color: #333; */
-    height: 63px;
-    width: 100%;
-    margin: none;
-    background-color: rgb(59, 53, 53);
-    color: #fff;
-    padding: 0 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
+@media only screen and (max-width: 799px) {
+    .navbar {
+        /* background-color: #333; */
+        height: 70px;
+        width: 100%;
+        margin: none;
+        background-color: rgb(59, 53, 53);
+        color: #fff;
+        padding: 0 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        overflow: hidden;
+    }
+    .navbar a {
+        display: none;
+        float: left;
+        color: #f2f2f2;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .dropdown {
+        display: none;
+    }
 }
 
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
+@media only screen and (min-width: 800px) {
+    .navbar {
+        /* background-color: #333; */
+        height: 70px;
+        width: 100%;
+        margin: none;
+        background-color: rgb(59, 53, 53);
+        color: #fff;
+        padding: 0 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+    }
 }
 
 .navbar a:hover {
@@ -56,6 +86,41 @@ body h2 {
 .banner:after {
     -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
     filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: #fff;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
 }
 
 .banner {
@@ -120,17 +185,11 @@ body h2 {
     left: 0;
     right: 0;
     color: white;
-    background: url(/img/deepspace.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .powerUp {
     border-top: 15px solid black;
     color: #fff;
-    background: url(/img/powerup.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 
@@ -148,7 +207,6 @@ body h2 {
     color: white;
     padding: 14px 16px;
     background-color: inherit;
-    font-family: inherit;
     margin: 0;
 }
 
@@ -184,5 +242,9 @@ body h2 {
     display: block;
 }
 
-
-/* End */
+.message {
+    text-align: center;
+    font-weight: 200;
+    margin: 0.4em 0;
+    font-size: 3.5em;
+}
