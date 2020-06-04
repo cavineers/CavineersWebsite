@@ -281,8 +281,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* background: linear-gradient(to bottom left, transparent 83.5%, rgb(21, 65, 211) 16.5%), linear-gradient(to bottom right, rgb(235, 202, 17), rgba(235, 177, 17, 0.925) 50%, rgba(0, 174, 255, 0.938), rgb(0, 140, 255) 50%); */
     background: #222;
+    background: linear-gradient(to bottom right, #222 50%, red 50%);
     color: #aaa;
     background-repeat: no-repeat;
     position: fixed;
