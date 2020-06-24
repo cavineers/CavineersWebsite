@@ -458,3 +458,24 @@
         }
     }
 }
+
+.alert {
+    background: rgb(45, 45, 45);
+    padding: 7px 9px;
+    border: none;
+    border-radius: 10px;
+    width: 41%;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+    cursor: pointer;
+}
+
+.alertCovid {
+    color: white;
+    text-decoration: none;
+}
+
+.alert:hover {
+    opacity: 0.8;
+}
