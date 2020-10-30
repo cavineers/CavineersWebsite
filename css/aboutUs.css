@@ -191,8 +191,7 @@ body {
 }
 
 .content {
-    padding: 60px 90px;
-    font-size: 20px;
+    padding: 6vw 7vw;
     font-weight: 5200;
     text-align: left;
 }
@@ -200,7 +199,7 @@ body {
 .headTxt {
     text-align: left;
     color: rgb(75, 68, 68);
-    font-size: 30px;
+    font-size: 3.5vw;
 }
 
 @media(min-width: 1641px) {
@@ -302,5 +301,5 @@ body {
     text-align: center;
     font-weight: 200;
     margin: 0.4em 0;
-    font-size: 3.5em;
+    font-size: 4.5vw;
 }
