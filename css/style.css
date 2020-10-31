@@ -71,6 +71,7 @@
             border: 1px solid #333;
             color: #fff;
             background: rgb(70, 70, 70);
+            background: linear-gradient(to bottom left, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(to right, rgba(212, 0, 255, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(to bottom right, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%), linear-gradient(to left, rgba(255, 251, 0, 0.8), rgba(0, 255, 0, 0) 70.71%);
             padding: 6px 10px;
             cursor: pointer;
         }
@@ -313,6 +314,7 @@
             border: 1px solid #333;
             color: #fff;
             background: rgb(70, 70, 70);
+            background: linear-gradient(to bottom left, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(to right, rgba(212, 0, 255, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(to bottom right, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%), linear-gradient(to left, rgba(255, 251, 0, 0.8), rgba(0, 255, 0, 0) 70.71%);
             padding: 6px 10px;
             cursor: pointer;
         }
