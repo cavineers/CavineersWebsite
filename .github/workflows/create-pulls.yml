@@ -19,6 +19,6 @@ jobs:
         uses: ./actions/create-pulls
         with:
           title: "New Request"
-          branch: "videoScrollEvent"
+          branch: "test"
           author: "Ryan4545"
           github-token: "${{ secrets.GITHUB_TOKEN }}"
