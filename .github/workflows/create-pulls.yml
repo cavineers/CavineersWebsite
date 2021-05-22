@@ -1,0 +1,24 @@
+name: "Create new pull request on a build branch"
+on: 
+  issues:
+    types: [opened]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Actions
+        uses: actions/checkout@v2
+        with:
+          repository: "cavineers/4541-actions-bot"
+          ref: pull-request-manager
+          path: ./actions
+      - name: Install Actions
+        run: npm install --production --prefix ./actions
+      - name: Run Action
+        uses: ./actions/create-pulls
+        with:
+          title: "New Request"
+          branch: "videoScrollEvent"
+          author: "Ryan4545"
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
