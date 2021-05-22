@@ -10,7 +10,7 @@ body {
     height: 63px;
     width: 100%;
     margin: none;
-    background-color: #3b3535;
+    background-color: rgb(59, 53, 53);
     color: #fff;
     padding: 0 20px;
     position: fixed;
@@ -38,12 +38,12 @@ body {
     float: left;
     display: block;
     color: #f2f2f2;
-    background: #3b3535;
+    background: rgb(59, 53, 53);
     padding: 14px 16px;
     text-align: center;
     text-decoration: none;
     font-size: 17px;
-    border: 1px solid #3b3535;
+    border: 1px solid rgb(59, 53, 53);
 }
 
 .navbar button:hover {
@@ -62,7 +62,6 @@ body {
     opacity: 0.9;
     overflow-x: hidden;
     padding-top: 60px;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
@@ -72,7 +71,6 @@ body {
     font-size: 22px;
     color: #ccc;
     display: block;
-    -webkit-transition: 0.3s;
     transition: 0.3s;
 }
 
@@ -95,8 +93,7 @@ body {
     border-radius: 50%;
     top: 0;
     border: 1px solid #333;
-    background: #d3cccc;
-    background: linear-gradient(to bottom left, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(to right, rgba(212, 0, 255, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(to bottom right, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%), linear-gradient(to left, rgba(255, 251, 0, 0.8), rgba(0, 255, 0, 0) 70.71%);
+    background: rgb(211, 204, 204);
     padding: 6px 10px;
     cursor: pointer;
 }
@@ -180,8 +177,8 @@ body {
 }
 
 .footer {
-    background: #dfdcdc;
-    color: #181616;
+    background: rgb(223, 220, 220);
+    color: rgb(24, 22, 22);
     width: 105%;
     height: 200px;
 }
@@ -209,21 +206,18 @@ img {
 
 @-webkit-keyframes fade {
     from {
-        opacity: .4;
+        opacity: .4
     }
     to {
-        opacity: 1;
+        opacity: 1
     }
 }
 
 @keyframes fade {
     from {
-        opacity: .4;
+        opacity: .4
     }
     to {
-        opacity: 1;
+        opacity: 1
     }
 }
-
-
-/*# sourceMappingURL=web.css.map */
