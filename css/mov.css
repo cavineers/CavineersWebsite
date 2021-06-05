@@ -15,7 +15,7 @@ body {
 }
 
 .v-header {
-    height: 100vh;
+    height: 96vh;
     display: flex;
     align-items: center;
     color: black;
