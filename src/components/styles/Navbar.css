@@ -1,0 +1,169 @@
+button,
+input[type="submit"],
+input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.insta {
+    position: fixed;
+    right: 5px;
+    font-size: 35px !important;
+    border-radius: 50%;
+    top: 0;
+    color: #fff;
+    border: none;
+    background: transparent;
+    padding: 6px 10px !important;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 669px) {
+    .navbar {
+        height: 60px;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(41, 38, 38);
+        color: #fff;
+        padding: 0 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+}
+
+@media only screen and (max-width: 668px) {
+    .navbar {
+        overflow: hidden;
+        height: 60px;
+        width: 100%;
+        margin: auto;
+        background-color: rgb(41, 38, 38);
+        color: #fff;
+        padding: 0 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(0, 140, 255);
+    color: #fff;
+}
+
+.navbar button {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar button:hover {
+    background-color: rgb(0, 140, 255);
+    color: #fff;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    background: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.side-nav a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #ccc;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: #fff;
+}
+
+.side-nav .btn-close {
+    position: absolute;
+    top: 0;
+    right: 22px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: white;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 16px;
+    cursor: pointer;
+    background-color: inherit;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(0, 140, 255);
+    color: #fff;
+}
+
+.dropdown-content {
+    display: none;
+    margin-top: 52px;
+    background-color: #272727;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(0, 140, 255);
+    color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
