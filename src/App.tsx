@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Sidemenu from './components/Sidemenu';
 import About from './components/About';
+import Homepage from './components/Main';
+import Outreach from './components/Outreach';
 
 // Main application window.
 function App() {
@@ -16,6 +18,8 @@ function App() {
                 <Navbar />
                 <Sidemenu />
                 <Route exact path="/about" component={About} />
+                <Route exact path="/" component={Homepage} />
+                <Route exact path="/outreach" component={Outreach} />
             </>
         </Router>
     );

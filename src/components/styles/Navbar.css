@@ -10,8 +10,8 @@ input[type="reset"] {
     outline: inherit;
 }
 
-.insta {
-    position: fixed;
+.socialMedia {
+    position: relative;
     right: 5px;
     font-size: 35px !important;
     border-radius: 50%;
@@ -19,7 +19,7 @@ input[type="reset"] {
     color: #fff;
     border: none;
     background: transparent;
-    padding: 6px 10px !important;
+    padding: 1px 10px !important;
     cursor: pointer;
 }
 
