@@ -72,8 +72,7 @@ export class Main {
             document.getElementById('num').style.animationFillMode = 'forwards';
             document.getElementById('name').style.animation = 'changeColorToWhite 0.50s linear';
             document.getElementById('name').style.animationFillMode = 'forwards';
-            document.getElementById('introTextCont').style.animation =
-                'changeColorToWhite 0.50s linear';
+            document.getElementById('introTextCont').style.animation = 'changeColorToWhite 0.50s linear';
             document.getElementById('introTextCont').style.animationFillMode = 'forwards';
         }, 2700);
         window.onbeforeunload = function () {

@@ -101,8 +101,7 @@ export class Main {
             (<HTMLInputElement>document.getElementById('num')).style.animationFillMode = 'forwards';
             (<HTMLInputElement>document.getElementById('name')).style.animation = 'changeColorToWhite 0.50s linear';
             (<HTMLInputElement>document.getElementById('name')).style.animationFillMode = 'forwards';
-            (<HTMLInputElement>document.getElementById('introTextCont')).style.animation =
-                'changeColorToWhite 0.50s linear';
+            (<HTMLInputElement>document.getElementById('introTextCont')).style.animation = 'changeColorToWhite 0.50s linear';
             (<HTMLInputElement>document.getElementById('introTextCont')).style.animationFillMode = 'forwards';
         }, 2700);
 
