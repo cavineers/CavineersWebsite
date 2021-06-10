@@ -1,0 +1,47 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": ["airbnb", "prettier", "plugin:@typescript-eslint/recommended", "eslint:recommended"],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": ["warn", { "tabWidth": 4, "singleQuote": true, "bracketSpacing": true, "eslint-disable-next-line": true, "printWidth": 130 }],
+        "no-unused-vars": "warn",
+        "no-console": "off",
+        "no-process-exit": "off",
+        "object-shorthand": "off",
+        "class-methods-use-this": "off",
+        "no-undef": "off",
+        "no-plusplus": "off",
+        "func-names": "off",
+        "require-jsdoc": "off",
+        "space-before-function-paren": "off",
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-inferrable-types": "off",
+        "no-param-reassign": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "import/prefer-default-export": "off",
+        "import/no-unresolved": "off",
+        "import/extensions": "off",
+        "import/order": "off",
+        "import/no-extraneous-dependencies": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
+        "no-alert": "off",
+        "consistent-return": "off",
+        "no-unused-expressions": "off",
+        "no-restricted-syntax": "off",
+        "max-classes-per-file": "off",
+        "react/jsx-filename-extension": "off"
+    }
+}
