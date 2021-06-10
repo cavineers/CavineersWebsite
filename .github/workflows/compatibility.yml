@@ -1,4 +1,4 @@
-name: React Build and package
+name: Check Install Compatibility
 
 on: push
 
