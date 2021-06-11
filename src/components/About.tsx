@@ -25,8 +25,7 @@ class About extends React.Component {
                                 4541
                             </p>
                             <p data-aos="fade-in" data-aos-delay="750" className="line colored" id="name">
-                                {' '}
-                                Cavineers
+                                &nbsp;Cavineers.
                             </p>
                             <p data-aos="fade-in" data-aos-delay="1300">
                                 <span

@@ -43,7 +43,7 @@ class Homepage extends React.Component {
                             spark of inspiration in our community, and now it is our team’s responsibility to fan the flame.
                         </p>
                         <div className="btnDiv">
-                            <a href="about.html" className="btn">
+                            <a href="/about" className="btn">
                                 Find Out More
                             </a>
                         </div>
