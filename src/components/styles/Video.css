@@ -181,8 +181,8 @@ body {
 .introSec .texts {
     z-index: 2;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50vh;
+    left: 50vw;
     transform: translate(-50%, -50%);
     font-size: 70px;
     color: white;
