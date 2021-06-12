@@ -2,7 +2,7 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './styles/Sponsors.css';
+import './styles/css/Sponsors.css';
 
 // Image Imports
 import ASHSLogo from './styles/img/sponsors/ASHS.png';
@@ -26,7 +26,7 @@ class Sponsors extends React.Component {
 
     render() {
         return (
-            <>
+            <div className="Sponsors">
                 <br />
                 <br />
                 <br />
@@ -109,7 +109,7 @@ class Sponsors extends React.Component {
                                 <img alt="LG-TEK" src={LGTek} height="135px" width="75%" />
                             </td>
                             <td>
-                                <img alt="Weather Gage Technologies" src={WeatherGage} height="100px" width="25%" />
+                                <img alt="Weather Gage Technologies" src={WeatherGage} height="100px" width="75%" />
                             </td>
                         </div>
                     </tr>
@@ -149,7 +149,7 @@ class Sponsors extends React.Component {
                 </h2>
                 <br />
                 <p style={{ fontWeight: 700, fontSize: '5vw' }}>The Greenhill Family</p>
-            </>
+            </div>
         );
     }
 }

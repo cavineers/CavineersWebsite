@@ -5,10 +5,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Footer from './Footer';
-import './styles/Robots.css';
+import './styles/css/Robots.css';
 
 const Robots = (props: any) => (
-    <div style={{ marginTop: '80px' }}>
+    <div className="RobotElement" style={{ marginTop: '55px' }}>
+        <br />
+        <br />
         <h1>{props.title}</h1>
         <br />
         <div className="content">

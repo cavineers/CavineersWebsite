@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/About.css';
-import './styles/Video.css';
+import './styles/css/About.css';
+import './styles/css/Video.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Main } from '../scripts/main';
@@ -17,7 +17,7 @@ class About extends React.Component {
 
     render() {
         return (
-            <>
+            <div className="About VideoElement">
                 <div className="page" id="page">
                     <div className="introSec animate">
                         <div className="texts">
@@ -356,7 +356,7 @@ class About extends React.Component {
                         <br />
                     </div>
                 </section>
-            </>
+            </div>
         );
     }
 }

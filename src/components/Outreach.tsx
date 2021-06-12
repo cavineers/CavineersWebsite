@@ -1,7 +1,7 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './styles/Outreach.css';
+import './styles/css/Outreach.css';
 
 // Image Imports
 import CRL from './styles/img/outreach/CRL.jpg';
@@ -25,7 +25,9 @@ class Outreach extends React.Component {
 
     render() {
         return (
-            <>
+            <div className="Outreach">
+                <br />
+                <br />
                 <h1 style={{ textAlign: 'center', fontSize: '50px', textShadow: '1px 1px 3px red' }}>Outreach Events</h1>
                 <div className="AOSPac" data-aos="fade-in">
                     <h1>
@@ -189,7 +191,7 @@ class Outreach extends React.Component {
                         <br />
                     </div>
                 </div>
-            </>
+            </div>
         );
     }
 }
