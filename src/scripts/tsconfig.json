@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "allowJs": true,
+      "checkJs": false,
+      "allowSyntheticDefaultImports": true,
+      "module": "es2020",
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "lib": ["ES2020", "dom", "es5"],
+      "strictNullChecks": false
+    }
+  }
