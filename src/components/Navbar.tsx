@@ -17,23 +17,23 @@ const Navbar = () => (
             </span>
             <div className="topnav">
                 <div style={{ float: 'left' }}>
-                    <a href="/">Home</a>
-                    <a href="/about">About Us</a>
-                    <a href="/outreach">Outreach</a>
-                    <a href="/sponsors">Sponsors</a>
+                    <a href="#/">Home</a>
+                    <a href="#/about">About Us</a>
+                    <a href="#/outreach">Outreach</a>
+                    <a href="#/sponsors">Sponsors</a>
                     <div className="dropdown">
-                        <a href="/bots" className="dropbtn">
+                        <a href="#/bots" className="dropbtn">
                             Meet Our Robots
                             <i style={{ marginLeft: '4px' }} className="fa fa-caret-down" />
                         </a>
                         <div className="dropdown-content">
-                            <a href="/bots/2019">2019</a>
-                            <a href="/bots/2018">2018</a>
-                            <a href="/bots/2017">2017</a>
-                            <a href="/bots/2016">2016</a>
-                            <a href="/bots/2015">2015</a>
-                            <a href="/bots/2014">2014</a>
-                            <a href="/bots/2013">2013</a>
+                            <a href="#/bots/2019">2019</a>
+                            <a href="#/bots/2018">2018</a>
+                            <a href="#/bots/2017">2017</a>
+                            <a href="#/bots/2016">2016</a>
+                            <a href="#/bots/2015">2015</a>
+                            <a href="#/bots/2014">2014</a>
+                            <a href="#/bots/2013">2013</a>
                         </div>
                     </div>
                 </div>

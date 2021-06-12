@@ -1,6 +1,6 @@
 {
     "name": "cavineers",
-    "homepage": "https://4541cavineers.org/",
+    "homepage": "https://4541cavineers.org",
     "version": "0.1.0",
     "private": true,
     "dependencies": {

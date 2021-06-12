@@ -1,6 +1,6 @@
 // Standard Imports
 import React from 'react';
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
 // Components
 import Navbar from './components/Navbar';
@@ -23,7 +23,7 @@ import Horton from './components/styles/img/robots/Horton.jpg';
 // Main application window.
 function App() {
     return (
-        <Router>
+        <Router basename={`/${process.env.PUBLIC_URL}`}>
             <>
                 <Navbar />
                 <Sidemenu />

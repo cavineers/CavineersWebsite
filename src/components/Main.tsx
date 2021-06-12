@@ -34,7 +34,7 @@ class Homepage extends React.Component {
                         <div className="header-overlay" />
                         <div className="header-content text-md-center">
                             <div className="alert">
-                                <a href="/about#Covid" className="alertCovid">
+                                <a href="#/about#Covid" className="alertCovid">
                                     Read about what we are doing under Covid-19
                                 </a>
                             </div>
@@ -44,7 +44,7 @@ class Homepage extends React.Component {
                                 spark of inspiration in our community, and now it is our team’s responsibility to fan the flame.
                             </p>
                             <div className="btnDiv">
-                                <a href="/about" className="btn">
+                                <a href="#/about" className="btn">
                                     Find Out More
                                 </a>
                             </div>
