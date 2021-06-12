@@ -61,22 +61,26 @@ class Homepage extends React.Component {
                                 justifyContent: 'space-between',
                             }}
                         >
-                            <p
-                                style={{
-                                    fontSize: '7vw',
-                                    color: '#258ede',
-                                    lineHeight: 1,
-                                    letterSpacing: 0,
-                                    fontWeight: 500,
-                                }}
-                            >
-                                Innovative.
-                                <br />
-                                Collaborative.
-                                <br />
-                                Inspired.
-                            </p>
-                            <img src={Logo} alt="4541 Logo" style={{ float: 'right' }} width="300" height="auto" />
+                            <div>
+                                <p
+                                    style={{
+                                        fontSize: '7vw',
+                                        color: '#258ede',
+                                        lineHeight: 1,
+                                        letterSpacing: 0,
+                                        fontWeight: 500,
+                                    }}
+                                >
+                                    Innovative.
+                                    <br />
+                                    Collaborative.
+                                    <br />
+                                    Inspired.
+                                </p>
+                            </div>
+                            <div>
+                                <img src={Logo} alt="4541 Logo" style={{ float: 'right' }} width="300" height="auto" />
+                            </div>
                         </div>
                         <br />
                         <div style={{ display: 'flex', flexWrap: 'wrap', marginLeft: '55px', marginRight: '30px' }}>
@@ -96,7 +100,7 @@ class Homepage extends React.Component {
                                 </div>
 
                                 <div className="award-event" style={{ marginLeft: '20px' }}>
-                                    <span style={{ fontSize: '17px' }}>2019 Oxon Hill MD District</span>
+                                    <span style={{ fontSize: '17px' }}>2019 OXON HILL MD DISTRICT</span>
                                 </div>
                             </div>
                             <div className="banner" style={{ marginLeft: '20px' }}>

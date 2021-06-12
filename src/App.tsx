@@ -1,6 +1,5 @@
 // Standard Imports
 import React from 'react';
-import './App.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 // Components
@@ -9,6 +8,7 @@ import Sidemenu from './components/Sidemenu';
 import About from './components/About';
 import Homepage from './components/Main';
 import Outreach from './components/Outreach';
+import Sponsors from './components/Sponsors';
 
 // Main application window.
 function App() {
@@ -20,6 +20,7 @@ function App() {
                 <Route exact path="/about" component={About} />
                 <Route exact path="/" component={Homepage} />
                 <Route exact path="/outreach" component={Outreach} />
+                <Route exact path="/sponsors" component={Sponsors} />
             </>
         </Router>
     );
