@@ -35,9 +35,10 @@ class Homepage extends React.Component {
                         <div className="header-content text-md-center">
                             <div className="alert">
                                 <a href="#/about#Covid" className="alertCovid">
-                                    Read about what we are doing under Covid-19
+                                    Read an update on our COVID-19 status / Engineering Camp
                                 </a>
                             </div>
+                            <br />
                             <h1>4541 Cavineers</h1>
                             <p>
                                 Team 4541’s mission is to instruct and inspire the next generation of engineers. We have ignited a
@@ -83,6 +84,7 @@ class Homepage extends React.Component {
                                     <img src={Logo} alt="4541 Logo" style={{ float: 'right' }} width="300" height="auto" />
                                 </div>
                             </div>
+                            <br />
                             <br />
                             <div style={{ display: 'flex', flexWrap: 'wrap', marginLeft: '55px', marginRight: '30px' }}>
                                 <div className="banner">
@@ -139,7 +141,7 @@ class Homepage extends React.Component {
                                             className="sponsorsTags"
                                             style={{ fontSize: '50px', textShadow: '2px 2px 5px red', textAlign: 'center' }}
                                         >
-                                            Our Sponsors
+                                            Our Amazing Sponsors
                                         </h1>
                                     </th>
                                     <th>

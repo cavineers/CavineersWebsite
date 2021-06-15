@@ -10,6 +10,10 @@ export class Main {
         document.getElementById('side-menu').style.width = '0px';
     }
     static animations(props) {
+        var _a;
+        if (window.location.hash === '#/about#Covid') {
+            (_a = document.getElementById('Covid')) === null || _a === void 0 ? void 0 : _a.scrollIntoView();
+        }
         const TxtRotate = function (el, toRotate, period) {
             this.toRotate = toRotate;
             this.el = el;

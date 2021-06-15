@@ -27,6 +27,10 @@ export class Main {
     /* ---------------------------- About Animations ---------------------------- */
 
     public static animations(props: any) {
+        if (window.location.hash === '#/about#Covid') {
+            document.getElementById('Covid')?.scrollIntoView();
+        }
+
         const TxtRotate = function (this: any, el: any, toRotate: any, period: any) {
             this.toRotate = toRotate;
             this.el = el;

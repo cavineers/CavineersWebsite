@@ -140,36 +140,21 @@ class About extends React.Component {
                                 >
                                     Our Covid-19 Response. <br />
                                     <span style={{ fontSize: '25px', fontWeight: 300 }}>
-                                        Keeping Us Safe. While Helping To Keep Others Safe.
+                                        Keeping Us Safe. While Helping To Keep Others Safe. (Updated: 6/15/2021)
                                     </span>
                                 </p>
                                 <p data-aos="fade-up-left" data-aos-delay="700" className="infoTexts">
-                                    Through these difficult times our team is working hard to ensure that everyone is staying safe
-                                    and healthy. Safety is our top priority always! Due to the pandemic, all of our competitions
-                                    have been cancelled and we have cancelled all of our in person meetings to help with social
-                                    distancing. We are continuing meetings online to keep innovation moving. Our team members have
-                                    also formed a task force to help 3D print face shields and masks for our community to help the
-                                    brave workers risking their lives for us. We are teaching coding and CADing lessons online so
-                                    we can keep learning. We are providing materials to all our members to help promote mental
-                                    health through the quarantine. Likewise, we have decided to cancel our engineering summer camp
-                                    this year for safety concerns. We apologize for any inconvenience and wish everyone well.
-                                </p>
-                                <p data-aos="fade-up-right" data-aos-delay="700" className="infoTexts">
-                                    <span style={{ fontSize: '25px', fontWeight: 300, borderBottom: '2px solid grey' }}>
-                                        Our Approach to Reopening Our Team.
-                                    </span>{' '}
-                                    While we have continued to teach, learn, and help our community online, some things just are
-                                    not the same. We have recently submitted a plan to reopen our workshop to students. Due to the
-                                    pandemic, we are taking extreme precautions to ensure the safety of everyone! While in the
-                                    workshop, masks are required at all times (along with safety goggles). We have assigned
-                                    seating and working areas to ensure proper distancing and contract tracing can happen. We have
-                                    divided our team into 3 groups who alternate through the workshop (with full online being an
-                                    option) to limit the number of people in person. Temperature checks are conducted to each
-                                    person who enters the workspace. CDC approved cleaning occurs before and after each meeting
-                                    with a deep cleaning day in between meetings. All students and staff are remaining distant and
-                                    we are prepared to return to full online at any time! All mentors are being asked to visit and
-                                    assist online until further notice. We know these procedures will help to ensure safety and
-                                    hope to see everyone back in the workshop really soon.
+                                    As the world begins to open back up, our team is preparing and planning for what comes next.
+                                    We are continuing to teach, learn, and volunteer in a virtual format for the summer, but are
+                                    ready to return to the workshop next season! We will continue to follow all local and federal
+                                    guidelines to ensure the safety of our team members, coaches, and mentors. <br />
+                                    <br />
+                                    We are ready to come back better than ever and build, innovate, and outreach to local
+                                    communities in need of support. For the time being, we have cancelled our summer engineering
+                                    camp for the summer in 2021, but we fully expect and are excited to announce that we will be
+                                    bringing the camp back in full swing for 2022 and beyond. Thank you everyone for your
+                                    continued support during this tragic time and we are excited to return to our workshop and
+                                    spread our innovative passion.
                                 </p>
                             </div>
                             <br />
