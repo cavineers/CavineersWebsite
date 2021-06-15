@@ -20,3 +20,8 @@ In order to get started developing this application, a few steps must be closely
 When developing the application, React is being run in development mode meaning that it is optimized for code changes and not a production environment. Run the command `yarn run build` in the command line to build the application for production mode.
 
 In order to push to GitHub pages, as stated in [this resource](https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/), use the command `yarn run deploy` in order to build, publish, and deploy the code to GitHub pages.
+
+### Legal Terms
+
+This application is protected under the APACHE-2.0 License terms. All Rights Are Reserved to the 4541 Cavineers.
+See our [LICENSE](LICENSE) for more information.
