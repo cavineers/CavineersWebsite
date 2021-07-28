@@ -31,11 +31,11 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "predeploy": "yarn run build",
-        "deploy": "echo '4541cavineers.org' > ./build/CNAME && gh-pages -d build",
+        "deploy": "node build.js",
         "tsc": "cd src && cd scripts && tsc",
         "lint": "eslint --fix **src/**",
-        "sass": "sass src/components/styles/scss:src/components/styles/css"
+        "sass": "sass src/components/styles/scss:src/components/styles/css",
+        "publish": "gh-pages -d build"
     },
     "browserslist": {
         "production": [
