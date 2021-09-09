@@ -24,7 +24,7 @@
         "react-scrollmagic": "^2.3.0",
         "typescript": "^4.3.5",
         "web-vitals": "^2.1.0",
-        "ws": "^7.4.6"
+        "ws": "^8.2.2"
     },
     "scripts": {
         "start": "concurrently -n 'server,tsc,scss' -c 'bold,white.dim,white.dim' \"react-scripts start\" \"cd src && cd scripts && tsc -w\" \"sass --watch src/components/styles/scss:src/components/styles/css\"",
