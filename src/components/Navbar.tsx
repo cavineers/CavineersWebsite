@@ -27,6 +27,7 @@ const Navbar = () => (
                             <i style={{ marginLeft: '4px' }} className="fa fa-caret-down" />
                         </a>
                         <div className="dropdown-content">
+                            <a href="#/bots/2020">2020</a>
                             <a href="#/bots/2019">2019</a>
                             <a href="#/bots/2018">2018</a>
                             <a href="#/bots/2017">2017</a>
@@ -46,9 +47,6 @@ const Navbar = () => (
                     </a>
                     <a target="__blank" href="https://twitter.com/4541cavineers" className="socialMedia">
                         <i className="fa fa-twitter" />
-                    </a>
-                    <a target="__blank" href="https://www.youtube.com/channel/UCU1wWjfG1Zcf-MTvqTj79Fg" className="socialMedia">
-                        <i className="fa fa-youtube" />
                     </a>
                 </div>
             </div>

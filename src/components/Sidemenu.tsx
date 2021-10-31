@@ -13,6 +13,7 @@ const Sidemenu = () => (
             <a href="#/about">About Us</a>
             <a href="#/sponsors">Our Sponsors</a>
             <a href="#/bots">Meet Our Bots</a>
+            <a href="#/bots/2020">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2020</a>
             <a href="#/bots/2019">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2019</a>
             <a href="#/bots/2018">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2018</a>
             <a href="#/bots/2017">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-2017</a>

@@ -12,6 +12,7 @@ import Sponsors from './components/Sponsors';
 import Robots from './components/Robots';
 
 // Robot Image Src
+import Kronk from './components/styles/img/robots/Kronk.png';
 import Geoff from './components/styles/img/robots/Geoff.jpg';
 import Fahrenheit from './components/styles/img/robots/Fahrenheit.jpg';
 import Bruce from './components/styles/img/robots/Bruce.jpg';
@@ -35,12 +36,20 @@ function App() {
                     <Route exact path="/sponsors" component={Sponsors} />
 
                     {/* Team Robot Paths */}
+                    <Route exact path="/bots/2020">
+                        <Robots
+                            title="2020 Infinite Recharge"
+                            src={Kronk}
+                            nickname="Kronk"
+                            information="Kronk was our early 2020 robot. Having never been to competition due to COVID-19, we never were able to fully test the might of this amazing bot, however it is an engineering masterpiece. With it's immensely small and compact design, Kronk is agile, speedy, and able to fit in small spaces. The Tank drivetrain allows this fast movement. With a dual gear system and color sensors this bot also powerful for defensive purposes just as much as offensive purposes."
+                        />
+                    </Route>
                     <Route exact path="/bots/2019">
                         <Robots
                             title="2019 Destination Deep Space"
                             src={Geoff}
                             nickname="Geoff"
-                            information="Geoff is the Cavineer's most recent robot. Geoff (gee-off), is designed with a grabber made of shape-optimized polycarbonate and holds both cargo and hatches with a pneumatic claw so that the robot performs exceptionally well without losing any style points. Geoff has a West Coast drivetrain, with a drop-center and Omni wheels in the back to assist with pivoting. Shifting gearboxes allow Geoff to play a mean defense. The elevator is a step-up from its sibling, Fahrenheit, allowing for the grabber to flip back and forth through the middle. Geoff's elevator is also capable of lifting both hatches and cargo to all levels of the rocket. Winning Chairman's and playing in the finals at the Oxon Hill district event, Geoff was a force to be reckoned with. Geoff won the Chesapeake District Championship and made it to the semi-finals of the Daly field at the World Championships."
+                            information="Geoff is the Cavineer's 2019 award winning robot. Geoff (gee-off), is designed with a grabber made of shape-optimized polycarbonate and holds both cargo and hatches with a pneumatic claw so that the robot performs exceptionally well without losing any style points. Geoff has a West Coast drivetrain, with a drop-center and Omni wheels in the back to assist with pivoting. Shifting gearboxes allow Geoff to play a mean defense. The elevator is a step-up from its sibling, Fahrenheit, allowing for the grabber to flip back and forth through the middle. Geoff's elevator is also capable of lifting both hatches and cargo to all levels of the rocket. Winning Chairman's and playing in the finals at the Oxon Hill district event, Geoff was a force to be reckoned with. Geoff won the Chesapeake District Championship and made it to the semi-finals of the Daly field at the World Championships."
                         />
                     </Route>
                     <Route exact path="/bots/2018">
