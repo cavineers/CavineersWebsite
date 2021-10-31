@@ -13,6 +13,7 @@ class About extends React.Component {
             duration: 2000,
             offset: 0,
         });
+        window.scrollTo(0, 0);
     }
 
     render() {
@@ -56,8 +57,9 @@ class About extends React.Component {
                                     The 4541 Cavineers are a dedicated team of passionate high schoolers who strive to not only
                                     compete in the FIRST Robotics Competition but spread their love of STEM with their community.
                                     <em>
-                                        It is our mission to spread innovation across our community and create an environment
-                                        where innovation not only takes place, but is encouraged in every sense of the word.
+                                        &nbsp;It is our mission to spread innovation across our community and create an
+                                        environment where innovation not only takes place, but is encouraged in every sense of the
+                                        word.
                                     </em>{' '}
                                     We are based out of Archbishop Spalding High School in Severn Maryland and are led by two
                                     amazing coaches who push and inspire us to innovate.
