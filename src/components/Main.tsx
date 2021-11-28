@@ -2,6 +2,7 @@
 import React from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Footer from './Footer';
 // StyleSheet / Image Imports
 import Logo from './styles/img/logo.png';
 import Video from './styles/img/homepage.mp4';
@@ -21,6 +22,9 @@ class Homepage extends React.Component {
         });
         // @ts-ignore
         document.querySelector('video').playbackRate = 0.8;
+
+        // Hide the overlapping footer tag
+        document.getElementsByTagName('footer')[1].style.display = 'none';
     }
 
     render() {
@@ -133,7 +137,7 @@ class Homepage extends React.Component {
                             </div>
                             <br />
                         </div>
-                        <div style={{ background: 'rgb(41, 38, 38)' }}>
+                        <div style={{ background: 'black' }}>
                             <table className="sponsors" cellSpacing="60">
                                 <tr>
                                     <th>
@@ -177,6 +181,7 @@ class Homepage extends React.Component {
                             </div>
                         </div>
                     </div>
+                    <Footer />
                 </div>
             </div>
         );

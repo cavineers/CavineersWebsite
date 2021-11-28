@@ -4,16 +4,15 @@ import './styles/css/Video.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Main } from '../scripts/main';
-import Footer from './Footer';
 
 class About extends React.Component {
     componentDidMount() {
+        window.scrollTo(0, 0);
         Main.animations(this.props);
         AOS.init({
             duration: 2000,
             offset: 0,
         });
-        window.scrollTo(0, 0);
     }
 
     render() {
@@ -142,21 +141,22 @@ class About extends React.Component {
                                 >
                                     Our Covid-19 Response. <br />
                                     <span style={{ fontSize: '25px', fontWeight: 300 }}>
-                                        Keeping Us Safe. While Helping To Keep Others Safe. (Updated: 6/15/2021)
+                                        Keeping Us Safe. While Helping To Keep Others Safe. (Updated: 11/29/2021)
                                     </span>
                                 </p>
                                 <p data-aos="fade-up-left" data-aos-delay="700" className="infoTexts">
-                                    As the world begins to open back up, our team is preparing and planning for what comes next.
-                                    We are continuing to teach, learn, and volunteer in a virtual format for the summer, but are
-                                    ready to return to the workshop next season! We will continue to follow all local and federal
-                                    guidelines to ensure the safety of our team members, coaches, and mentors. <br />
-                                    <br />
-                                    We are ready to come back better than ever and build, innovate, and outreach to local
-                                    communities in need of support. For the time being, we have cancelled our summer engineering
-                                    camp for the summer in 2021, but we fully expect and are excited to announce that we will be
-                                    bringing the camp back in full swing for 2022 and beyond. Thank you everyone for your
-                                    continued support during this tragic time and we are excited to return to our workshop and
-                                    spread our innovative passion.
+                                    With the world returning back to a more normal setting, we have started meeting again in
+                                    person! We are keeping the safety of all our team members, coaches, staff, and mentors as our main priority.
+                                    Masks are required at all our meetings all the time along with social distancing of 3 feet between members
+                                    per CDC guidance. We are continually monitoring the situation and following all local and federal guidance
+                                    to ensure the safety of all our members. We are planning in person competitions in conjunction with FIRST
+                                    Chesapeake, once again, keeping all safety protocols in mind. As of November 27th 2021, a new variant of
+                                    COVID-19, called the Omicron or Nu variant, was discovered and has been shown in studies to be vaccine resistant.
+                                    We are watching this new variant and following all CDC and local guidance to ensure the safety of everyone.
+                                    We are fully prepared to shut down in person meeting, should it come to that, in the event of an emergency.
+                                    We want to once again thank all of our mentors, sponsors, and supporters as we navigate through this trying
+                                    time. We are so excited to have the opportunity to build, collaborate, and learn once again in person and
+                                    look forward to seeing everyone shortly in our workshop or at our competitions!
                                 </p>
                             </div>
                             <br />
@@ -172,7 +172,7 @@ class About extends React.Component {
                                     </span>
                                 </p>
                                 <p data-aos="fade-down" data-aos-delay="700" className="infoTexts">
-                                    The Catholic Robotics League or CRL is a community of robotics teams who&apos; inspire
+                                    The Catholic Robotics League or CRL is a community of robotics teams who&apos;s inspire
                                     innovation within a group of students. Check out the CRL website to learn more about their
                                     mission{' '}
                                     <a
@@ -221,7 +221,6 @@ class About extends React.Component {
                                         amazing coaches who push and inspire us to innovate.
                                     </p>
                                 </div>
-                                <Footer />
                             </div>
                             <br />
                             <br />
@@ -246,7 +245,6 @@ class About extends React.Component {
                                         and robotics students, serving as camp counselors.
                                     </p>
                                 </div>
-                                <Footer />
                             </div>
                             <br />
                             <br />
@@ -267,7 +265,6 @@ class About extends React.Component {
                                         <a href="mentalHealth.html">Click here to learn more about mental health</a>
                                     </p>
                                 </div>
-                                <Footer />
                             </div>
                             <br />
                             <br />
@@ -288,7 +285,6 @@ class About extends React.Component {
                                         engineering lab.
                                     </p>
                                 </div>
-                                <Footer />
                             </div>
                             <br />
                             <br />
@@ -307,30 +303,6 @@ class About extends React.Component {
                                         </a>
                                     </p>
                                 </div>
-                                <Footer />
-                            </div>
-                            <br />
-                            <br />
-                            <div className="infoBox1" id="Covid">
-                                <div className="content">
-                                    <p style={{ color: 'rgb(83, 83, 83)', fontSize: '24px', lineHeight: 1.6 }}>
-                                        <span className="headTxt">
-                                            <b>Covid-19 Response:</b>
-                                        </span>
-                                        <br />
-                                        <br /> Through these difficult times our team is working hard to ensure that everyone is
-                                        staying safe and healthy. Safety is our top priority always! Due to the pandemic, all of
-                                        our competitions have been cancelled and we have cancelled all of our in person meetings
-                                        to help with social distancing. We are continuing meetings online to keep innovation
-                                        moving. Our team members have also formed a task force to help 3D print face shields and
-                                        masks for our community to help the brave workers risking their lives for us. We are
-                                        teaching coding and CADing lessons online so we can keep learning. We are providing
-                                        materials to all our members to help promote mental health through the quarantine.
-                                        Likewise, we have decided to cancel our engineering summer camp this year for safety
-                                        concerns. We apologize for any inconvenience and wish everyone well.
-                                    </p>
-                                </div>
-                                <Footer />
                             </div>
                         </div>
                         <br />

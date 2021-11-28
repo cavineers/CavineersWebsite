@@ -4,7 +4,6 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import Footer from './Footer';
 import './styles/css/Robots.css';
 
 const Robots = (props: any) => (
@@ -32,7 +31,6 @@ const Robots = (props: any) => (
                         <br /> {props.information}
                     </p>
                 </div>
-                <Footer />
             </div>
         </div>
         <br />

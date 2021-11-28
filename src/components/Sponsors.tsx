@@ -148,7 +148,7 @@ class Sponsors extends React.Component {
                     <em>Bronze Sponsors:</em>
                 </h2>
                 <br />
-                <p style={{ fontWeight: 700, fontSize: '5vw' }}>The Greenhill Family</p>
+                <p style={{ fontWeight: 700, fontSize: '5vw', margin: 0 }}>The Greenhill Family</p>
             </div>
         );
     }

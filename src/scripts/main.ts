@@ -42,15 +42,15 @@ export class Main {
 
         setTimeout(() => {
             document.body.style.overflow = 'auto';
-            (<HTMLInputElement>headSection).style.animation = 'backgroundAnimation 0.90s linear';
+            (<HTMLInputElement>headSection).style.animation = 'backgroundAnimation 1.0s linear';
             (<HTMLInputElement>headSection).style.animationFillMode = 'forwards';
-            (<HTMLInputElement>secondSection).style.animation = 'backgroundAnimationRev 0.90s linear';
+            (<HTMLInputElement>secondSection).style.animation = 'backgroundAnimationRev 1.0s linear';
             (<HTMLInputElement>secondSection).style.animationFillMode = 'forwards';
-            (<HTMLInputElement>document.getElementById('num')).style.animation = 'changeColorToWhite 0.60s linear';
+            (<HTMLInputElement>document.getElementById('num')).style.animation = 'changeColorToWhite 0.90s linear';
             (<HTMLInputElement>document.getElementById('num')).style.animationFillMode = 'forwards';
-            (<HTMLInputElement>document.getElementById('name')).style.animation = 'changeColorToWhite 0.60s linear';
+            (<HTMLInputElement>document.getElementById('name')).style.animation = 'changeColorToWhite 0.90s linear';
             (<HTMLInputElement>document.getElementById('name')).style.animationFillMode = 'forwards';
-            (<HTMLInputElement>document.getElementById('introTextCont')).style.animation = 'changeColorToWhite 0.60s linear';
+            (<HTMLInputElement>document.getElementById('introTextCont')).style.animation = 'changeColorToWhite 0.90s linear';
             (<HTMLInputElement>document.getElementById('introTextCont')).style.animationFillMode = 'forwards';
         }, 2700);
 

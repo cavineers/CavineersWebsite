@@ -22,15 +22,15 @@ export class Main {
         document.body.style.overflow = 'hidden';
         setTimeout(() => {
             document.body.style.overflow = 'auto';
-            headSection.style.animation = 'backgroundAnimation 0.90s linear';
+            headSection.style.animation = 'backgroundAnimation 1.0s linear';
             headSection.style.animationFillMode = 'forwards';
-            secondSection.style.animation = 'backgroundAnimationRev 0.90s linear';
+            secondSection.style.animation = 'backgroundAnimationRev 1.0s linear';
             secondSection.style.animationFillMode = 'forwards';
-            document.getElementById('num').style.animation = 'changeColorToWhite 0.60s linear';
+            document.getElementById('num').style.animation = 'changeColorToWhite 0.90s linear';
             document.getElementById('num').style.animationFillMode = 'forwards';
-            document.getElementById('name').style.animation = 'changeColorToWhite 0.60s linear';
+            document.getElementById('name').style.animation = 'changeColorToWhite 0.90s linear';
             document.getElementById('name').style.animationFillMode = 'forwards';
-            document.getElementById('introTextCont').style.animation = 'changeColorToWhite 0.60s linear';
+            document.getElementById('introTextCont').style.animation = 'changeColorToWhite 0.90s linear';
             document.getElementById('introTextCont').style.animationFillMode = 'forwards';
         }, 2700);
         window.onbeforeunload = function () {

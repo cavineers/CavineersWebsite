@@ -10,6 +10,7 @@ import Homepage from './components/Main';
 import Outreach from './components/Outreach';
 import Sponsors from './components/Sponsors';
 import Robots from './components/Robots';
+import Footer from './components/Footer';
 
 // Robot Image Src
 import Kronk from './components/styles/img/robots/Kronk.png';
@@ -102,6 +103,8 @@ function App() {
                     </Route>
                     <Redirect path="*" to="/" />
                 </Switch>
+
+                <Footer />
             </>
         </Router>
     );
