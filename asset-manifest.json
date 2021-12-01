@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8852c5d3.chunk.css",
-    "main.js": "/static/js/main.7e2171bb.chunk.js",
-    "main.js.map": "/static/js/main.7e2171bb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.49c3645a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.49c3645a.js.map",
-    "static/css/2.3150fd4f.chunk.css": "/static/css/2.3150fd4f.chunk.css",
-    "static/js/2.717dcb05.chunk.js": "/static/js/2.717dcb05.chunk.js",
-    "static/js/2.717dcb05.chunk.js.map": "/static/js/2.717dcb05.chunk.js.map",
-    "static/js/3.2c9c3e17.chunk.js": "/static/js/3.2c9c3e17.chunk.js",
-    "static/js/3.2c9c3e17.chunk.js.map": "/static/js/3.2c9c3e17.chunk.js.map",
+    "main.css": "/static/css/main.324ac09d.chunk.css",
+    "main.js": "/static/js/main.60d760de.chunk.js",
+    "main.js.map": "/static/js/main.60d760de.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3228fe4f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3228fe4f.js.map",
+    "static/css/2.b10a470e.chunk.css": "/static/css/2.b10a470e.chunk.css",
+    "static/js/2.40839f18.chunk.js": "/static/js/2.40839f18.chunk.js",
+    "static/js/2.40839f18.chunk.js.map": "/static/js/2.40839f18.chunk.js.map",
+    "static/js/3.3492c57a.chunk.js": "/static/js/3.3492c57a.chunk.js",
+    "static/js/3.3492c57a.chunk.js.map": "/static/js/3.3492c57a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.3150fd4f.chunk.css.map": "/static/css/2.3150fd4f.chunk.css.map",
-    "static/css/main.8852c5d3.chunk.css.map": "/static/css/main.8852c5d3.chunk.css.map",
-    "static/js/2.717dcb05.chunk.js.LICENSE.txt": "/static/js/2.717dcb05.chunk.js.LICENSE.txt",
+    "static/css/2.b10a470e.chunk.css.map": "/static/css/2.b10a470e.chunk.css.map",
+    "static/css/main.324ac09d.chunk.css.map": "/static/css/main.324ac09d.chunk.css.map",
+    "static/js/2.40839f18.chunk.js.LICENSE.txt": "/static/js/2.40839f18.chunk.js.LICENSE.txt",
     "static/media/ASHS.7b7b61ae.png": "/static/media/ASHS.7b7b61ae.png",
     "static/media/BGClub.99f74187.jpg": "/static/media/BGClub.99f74187.jpg",
     "static/media/Bruce.072d5e1e.jpg": "/static/media/Bruce.072d5e1e.jpg",
@@ -45,10 +45,10 @@
     "static/media/raskobFoundation.097c3db1.jpg": "/static/media/raskobFoundation.097c3db1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.49c3645a.js",
-    "static/css/2.3150fd4f.chunk.css",
-    "static/js/2.717dcb05.chunk.js",
-    "static/css/main.8852c5d3.chunk.css",
-    "static/js/main.7e2171bb.chunk.js"
+    "static/js/runtime-main.3228fe4f.js",
+    "static/css/2.b10a470e.chunk.css",
+    "static/js/2.40839f18.chunk.js",
+    "static/css/main.324ac09d.chunk.css",
+    "static/js/main.60d760de.chunk.js"
   ]
 }
