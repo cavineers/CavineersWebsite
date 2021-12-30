@@ -146,17 +146,19 @@ class About extends React.Component {
                                 </p>
                                 <p data-aos="fade-up-left" data-aos-delay="700" className="infoTexts">
                                     With the world returning back to a more normal setting, we have started meeting again in
-                                    person! We are keeping the safety of all our team members, coaches, staff, and mentors as our main priority.
-                                    Masks are required at all our meetings all the time along with social distancing of 3 feet between members
-                                    per CDC guidance. We are continually monitoring the situation and following all local and federal guidance
-                                    to ensure the safety of all our members. We are planning in person competitions in conjunction with FIRST
-                                    Chesapeake, once again, keeping all safety protocols in mind. As of November 27th 2021, a new variant of
-                                    COVID-19, called the Omicron or Nu variant, was discovered and has been shown in studies to be vaccine resistant.
-                                    We are watching this new variant and following all CDC and local guidance to ensure the safety of everyone.
-                                    We are fully prepared to shut down in person meeting, should it come to that, in the event of an emergency.
-                                    We want to once again thank all of our mentors, sponsors, and supporters as we navigate through this trying
-                                    time. We are so excited to have the opportunity to build, collaborate, and learn once again in person and
-                                    look forward to seeing everyone shortly in our workshop or at our competitions!
+                                    person! We are keeping the safety of all our team members, coaches, staff, and mentors as our
+                                    main priority. Masks are required at all our meetings all the time along with social
+                                    distancing of 3 feet between members per CDC guidance. We are continually monitoring the
+                                    situation and following all local and federal guidance to ensure the safety of all our
+                                    members. We are planning in person competitions in conjunction with FIRST Chesapeake, once
+                                    again, keeping all safety protocols in mind. As of November 27th 2021, a new variant of
+                                    COVID-19, called the Omicron or Nu variant, was discovered and has been shown in studies to be
+                                    vaccine resistant. We are watching this new variant and following all CDC and local guidance
+                                    to ensure the safety of everyone. We are fully prepared to shut down in person meeting, should
+                                    it come to that, in the event of an emergency. We want to once again thank all of our mentors,
+                                    sponsors, and supporters as we navigate through this trying time. We are so excited to have
+                                    the opportunity to build, collaborate, and learn once again in person and look forward to
+                                    seeing everyone shortly in our workshop or at our competitions!
                                 </p>
                             </div>
                             <br />
