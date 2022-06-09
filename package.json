@@ -68,7 +68,7 @@
         "eslint-plugin-react": "^7.24.0",
         "gh-pages": "^3.2.3",
         "prettier": "^2.3.2",
-        "sass": "^1.36.0"
+        "sass": "^1.52.3"
     },
     "resolutions": {
         "normalize-url": "^6.0.1",
